@@ -1,0 +1,408 @@
+@font-face {
+    font-family: Vazir;
+    src: url(./fonts/Vazir-Black.woff2) format("woff2");
+}
+
+
+
+html {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    margin: .3rem 9rem 0rem 0rem;
+    direction: rtl;
+    align-items: center;
+    font-family: Vazir;
+    font-size: .9rem;
+    background-color: white;
+}
+@media(max-width:861px){
+    .header{
+        margin: .5rem 5rem ;
+    }
+}
+
+.header .logo {
+    color: #21aa58;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+@media(max-width:861px){
+    .header .logo{
+        color: #21aa58;
+        font-size: 2rem;
+        padding: .4rem;
+    }
+}
+
+
+.header .navbar a {
+    text-decoration: none;
+    border-top-width: 20rem;
+    padding: 1.5rem;
+    color: black;
+    font-weight: lighter;
+
+
+}
+@media(max-width:861px){
+    .header .navbar a {
+        padding: .09rem;
+    }
+}
+
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Vazir;
+
+}
+@media(max-width:860px){
+.main .imgintruduction img{
+    width: 48rem;
+    height: 29rem;
+    display: flex;
+    display: none;
+}
+}
+
+
+.main .greenintruduction {
+    background-color: #21aa58;
+    color: aliceblue;
+    height: 29rem;
+    width: 75rem;
+    text-align: center;
+
+}
+
+.main .intruduction {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2rem 9.5rem 0rem 2rem;
+    line-height: 3.3rem;
+}
+
+.main .intruduction2 {
+    font-size: 20px;
+    padding: 1rem;
+    padding: 2rem 10.5rem 0rem 2rem;
+    line-height: 2.5rem;
+}
+
+.number {
+    display: flex;
+    direction: rtl;
+    padding: 1.5rem 11rem 0rem 2rem;
+    box-sizing: border-box;
+}
+
+.main .number .thenumber {
+    color: white;
+    background-color: #21aa58;
+    width: 16rem;
+    height: 2rem;
+    border-color: #21aa58;
+    font-size: 1.1rem;
+}
+
+.main .number .thenumber::placeholder {
+    color: rgb(188, 187, 187);
+}
+
+.main .number .sendnumber {
+    box-sizing: border-box;
+    background-color: white;
+    color: #21aa58;
+    margin-right: 2rem;
+    width: 7rem;
+    height: 2.4rem;
+    padding: 5px 0px 8px 0px;
+    border-radius: .5rem;
+    cursor: pointer;
+    border-color: white;
+    font-size: 1.3rem;
+}
+
+
+.main .app {
+    text-align: center;
+    display: flex;
+    margin: 2rem 0rem 1rem 6rem;/*چپ پایین راست بالا (دقیقا همین ترتیب) */
+    cursor: pointer;
+    width: 16.5rem;
+    height: 3rem;
+    padding:.3rem 0rem 0rem 1.3rem ;
+    background-color: #21aa58;
+    color: white;
+    border-radius: .5rem;
+    font-family: Vazir;
+    font-size: 1.2rem;
+    border-color: white;
+    border-width:.6px ;
+    display: inline-block;
+
+}
+@media (max-width: 860px) {
+    .main .app{
+        margin: 2rem 6rem 1rem 16.5rem;
+    }
+}
+
+
+.downloadmain{
+    display: flex; /*for hesaneh */
+    padding: 2rem 3rem 2rem 15rem;
+    color: white;
+}
+@media (max-width: 860px) {
+    .downloadmain{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+.downloadmain .androad{
+    background-color: #042c16;
+    margin: 0.5rem 0rem 0rem 3rem;
+    border-radius: 0.3rem;
+    flex-grow: .1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    cursor: pointer;
+
+}
+@media (max-width: 860px) {
+  .downloadmain .androad {
+    margin: 0.5rem 6rem 0rem 3rem;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+  }
+}
+
+.downloadmain .myket{
+    background-color: #042c16;
+    margin: 0.5rem 1rem 0rem 1rem;
+    border-radius: 0.3rem;
+    flex-grow: .1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    cursor: pointer;
+
+}
+@media (max-width: 860px) {
+  .downloadmain .myket {
+    margin: 0.5rem 1rem 0rem 3rem;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+  }
+}
+
+.downloadmain .store{
+    background-color: #042c16;
+    margin: 0.5rem 1rem 0rem 3rem;
+    border-radius: 0.3rem;
+    flex-grow: .1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    cursor: pointer;
+
+}
+@media (max-width: 860px) {
+  .downloadmain .store {
+    margin: 0.5rem 1rem 0rem 3rem;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+  }
+}
+
+.downloadmain .app{
+    background-color: #21aa58;
+    margin: 0.5rem 1rem 0rem 3rem;
+    border-radius: 0.3rem;
+    flex-grow: .1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    cursor: pointer;
+
+}
+@media (max-width: 860px) {
+  .downloadmain .app {
+    margin: 0.5rem 1rem 0rem 3rem;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+  }
+}
+
+.downloadmain .bazar{
+    background-color: #042c16;
+    margin: 0.5rem 1rem 0rem 3rem;
+    border-radius: 0.3rem;
+    flex-grow: .1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    cursor: pointer;
+
+}
+@media (max-width: 860px) {
+  .downloadmain .bazar {
+    margin: 0.5rem 1rem 0rem 3rem;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+  }
+}
+.option{
+    justify-content: center;
+    background-color: rgb(242, 244, 242);
+    display: grid;
+    border-radius: .5rem;
+    grid-template-columns: 14rem 14rem 14rem ;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+
+}
+.option .item{
+    margin:.3rem ;
+    background-color:#fafcfb;
+    border-radius: .4rem;
+    text-align: center;
+    padding: 1.6rem;
+    cursor: pointer;
+}
+
+.option .item-22{
+    grid-column-start: 2;
+}
+
+.requirments{
+    background-color: #000000;
+    width:32rem;
+    height: 10rem;
+    margin-left: 32rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    line-height: 1.7rem;
+    direction: rtl;
+    color: rgb(229, 245, 229);
+}
+
+
+.requirments .title{
+    padding: .5rem;
+    font-size:  1.7rem;
+}
+@media(max-width:860px){
+    .requirments {
+        background-color: #000000;
+        color: white;
+        direction: rtl;
+        border-radius: 1rem;
+        width: 40rem;
+        margin: 1rem 17rem 3rem 3rem;
+        padding: .5rem;
+    }
+}
+
+
+.discriptionn {
+    display: flex;
+}
+@media (max-width: 860px) {
+    .discriptionn{
+        display: grid;
+
+    }
+}
+
+
+.discriptionn .easy{
+    background-color: rgb(229, 245, 229);
+    height: 8rem;
+    width: 12rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.discriptionn .fast{
+    background-color: rgb(229, 245, 229);
+    height: 8rem;
+    width: 12rem;
+    margin: 1rem 10rem 1rem 0rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+@media (max-width: 1300px) {
+    .discriptionn .fast{
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 6rem;
+        margin-right: 9rem;
+        width: 10rem;
+       height: 10rem;
+        }
+}
+@media (max-width: 1300px) {
+    .discriptionn .easy{
+        grid-row: 2;
+        grid-column: 2;
+       margin-left: 4rem;
+       width: 10rem;
+       height: 10rem;
+        }
+}
+
+.discriptionn .imgfast{
+    margin: 4rem 0rem 1rem 16rem;
+}
+.discriptionn .imgeasy{
+    margin: 4rem 0rem 1rem 7rem;
+
+}
+@media(max-width:1300px){
+.discriptionn .imgeasy{
+background-color: #f3f4f4;
+margin-left: 5rem;
+width: 13rem;
+}
+}
+@media(max-width:1300px){
+.discriptionn .imgfast{
+background-color: #f3f4f4;
+margin-right: 6rem;
+margin-left: 5rem;
+width: 13rem;
+}
+}
