@@ -3,8 +3,6 @@
     src: url(./fonts/Vazir-Black.woff2) format("woff2");
 }
 
-
-
 html {
     max-width: 100%;
 }
@@ -20,6 +18,7 @@ html {
     font-size: .9rem;
     background-color: white;
 }
+
 @media(max-width:861px){
     .header{
         margin: .5rem 5rem ;
@@ -32,6 +31,7 @@ html {
     font-weight: bold;
 
 }
+
 @media(max-width:861px){
     .header .logo{
         color: #21aa58;
@@ -40,38 +40,37 @@ html {
     }
 }
 
-
 .header .navbar a {
     text-decoration: none;
     border-top-width: 20rem;
     padding: 1.5rem;
     color: black;
     font-weight: lighter;
-
-
 }
+
 @media(max-width:861px){
     .header .navbar a {
         padding: .09rem;
     }
 }
 
-
 .main {
     display: flex;
     justify-content: flex-start;
     font-family: Vazir;
-
 }
-@media(max-width:860px){
-.main .imgintruduction img{
+
+.main .imgintruduction img {
     width: 48rem;
     height: 29rem;
     display: flex;
-    display: none;
-}
 }
 
+@media (max-width: 860px) {
+    .main .imgintruduction img {
+        display: none;
+}
+}
 
 .main .greenintruduction {
     background-color: #21aa58;
@@ -79,7 +78,6 @@ html {
     height: 29rem;
     width: 75rem;
     text-align: center;
-
 }
 
 .main .intruduction {
@@ -130,11 +128,10 @@ html {
     font-size: 1.3rem;
 }
 
-
 .main .app {
     text-align: center;
     display: flex;
-    margin: 2rem 0rem 1rem 6rem;/*چپ پایین راست بالا (دقیقا همین ترتیب) */
+    margin: 2rem 0rem 1rem 6rem;
     cursor: pointer;
     width: 16.5rem;
     height: 3rem;
@@ -147,20 +144,20 @@ html {
     border-color: white;
     border-width:.6px ;
     display: inline-block;
-
 }
+
 @media (max-width: 860px) {
     .main .app{
         margin: 2rem 6rem 1rem 16.5rem;
     }
 }
 
-
 .downloadmain{
-    display: flex; /*for hesaneh */
+    display: flex;
     padding: 2rem 3rem 2rem 15rem;
     color: white;
 }
+
 @media (max-width: 860px) {
     .downloadmain{
         padding: 2rem 1rem 2rem 1rem;
@@ -179,6 +176,7 @@ html {
     cursor: pointer;
 
 }
+
 @media (max-width: 860px) {
   .downloadmain .androad {
     margin: 0.5rem 6rem 0rem 3rem;
@@ -198,8 +196,8 @@ html {
     align-items: center;
     height: 3.3rem;
     cursor: pointer;
-
 }
+
 @media (max-width: 860px) {
   .downloadmain .myket {
     margin: 0.5rem 1rem 0rem 3rem;
@@ -219,8 +217,8 @@ html {
     align-items: center;
     height: 3.3rem;
     cursor: pointer;
-
 }
+
 @media (max-width: 860px) {
   .downloadmain .store {
     margin: 0.5rem 1rem 0rem 3rem;
@@ -240,8 +238,8 @@ html {
     align-items: center;
     height: 3.3rem;
     cursor: pointer;
-
 }
+
 @media (max-width: 860px) {
   .downloadmain .app {
     margin: 0.5rem 1rem 0rem 3rem;
@@ -261,8 +259,8 @@ html {
     align-items: center;
     height: 3.3rem;
     cursor: pointer;
-
 }
+
 @media (max-width: 860px) {
   .downloadmain .bazar {
     margin: 0.5rem 1rem 0rem 3rem;
@@ -271,6 +269,7 @@ html {
     padding: 1rem;
   }
 }
+
 .option{
     justify-content: center;
     background-color: rgb(242, 244, 242);
@@ -280,6 +279,7 @@ html {
     grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
 
 }
+
 .option .item{
     margin:.3rem ;
     background-color:#fafcfb;
@@ -307,11 +307,11 @@ html {
     color: rgb(229, 245, 229);
 }
 
-
 .requirments .title{
     padding: .5rem;
     font-size:  1.7rem;
 }
+
 @media(max-width:860px){
     .requirments {
         background-color: #000000;
@@ -328,13 +328,13 @@ html {
 .discriptionn {
     display: flex;
 }
+
 @media (max-width: 860px) {
     .discriptionn{
         display: grid;
 
     }
 }
-
 
 .discriptionn .easy{
     background-color: rgb(229, 245, 229);
@@ -348,7 +348,6 @@ html {
     align-items: center;
     direction: rtl;
     padding: 1rem 1rem 1rem 1rem;
-
 }
 
 .discriptionn .fast{
@@ -374,6 +373,7 @@ html {
        height: 10rem;
         }
 }
+
 @media (max-width: 1300px) {
     .discriptionn .easy{
         grid-row: 2;
@@ -387,6 +387,7 @@ html {
 .discriptionn .imgfast{
     margin: 4rem 0rem 1rem 16rem;
 }
+
 .discriptionn .imgeasy{
     margin: 4rem 0rem 1rem 7rem;
 
@@ -398,6 +399,7 @@ margin-left: 5rem;
 width: 13rem;
 }
 }
+
 @media(max-width:1300px){
 .discriptionn .imgfast{
 background-color: #f3f4f4;
